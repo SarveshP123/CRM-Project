@@ -1,0 +1,193 @@
+
+.navlogo{
+    height: 70px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 60px;
+    margin-left: 50px;
+margin-top: -10px;
+}
+
+.navlogo:hover {
+    transform: rotate(360deg);  
+  }
+.pulse{
+    color:green;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: serif;
+}
+.Slidebar{
+cursor: pointer;
+ font-size:18px !important;
+ font-weight: 600;
+ font-style: italic;
+ color:black;
+margin-top:-5px;
+width: 92%;
+text-align: left;
+
+
+
+
+    }
+
+    
+    .Slidebar:hover{
+        cursor: pointer;
+        animation: jump 0.5s ease-in-out;
+      
+        }
+        @keyframes jump {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .menuButton{
+            height: 40px;
+            margin-left: -60px;
+        }
+        .logout {
+            width: 50px;
+            border-radius: 70px;
+            cursor: pointer;
+            margin-top: -10px;
+            margin-left: -10px;
+         
+            
+          }
+          .login {
+            width: 60px;
+            border-radius: 70px;
+            cursor: pointer;
+            margin-top: -10px;
+            margin-left: -10px;
+   
+
+            
+          }
+        
+          
+          @keyframes shake {
+            0%, 100% {
+              transform: translateX(0); /* Initial position */
+            }
+            25% {
+              transform: translateX(-10px); /* Move left */
+            }
+            50% {
+              transform: translateX(10px); /* Move right */
+            }
+            75% {
+              transform: translateX(-10px); /* Move left */
+            }
+          }
+          
+.menu{
+    width: 80px;
+    border-radius: 80px;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-left: -50px;
+}
+
+.custom-outline-dark {
+  width: 450px !important;
+  margin-left: -10px;
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #343a40; /* Outline dark border */
+  border-radius: 0.25rem;
+  color:black; /* Dark text color */
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent; /* Transparent background */
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.custom-outline-dark img {
+  margin-right: 15px;
+  transition: filter 0.15s ease-in-out;
+}
+
+.custom-outline-dark:hover {
+  background-color: #343a40; /* Dark background on hover */
+  color: #fff; /* White text on hover */
+}
+
+.custom-outline-dark:hover img {
+  background-color: #343a40; /* Dark background on hover */
+  color: #fff; /* White text on hover */
+}
+
+@media screen and (max-width:766px) {
+  .login {
+    width: 60px;
+    border-radius: 70px;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-left: -100px;
+    
+  }
+
+
+
+
+    .menu{
+        width: 80px;
+        border-radius: 80px;
+        cursor: pointer;
+        margin-top: -5px;
+        margin-left: -25px;
+    }
+    .logout{
+        width: 40px;
+        border-radius: 70px;
+        margin-left: -50px;
+    }
+    .login {
+        width: 40px;
+        border-radius: 70px;
+        cursor: pointer;
+        margin-top: -10px;
+        margin-left: -60px;
+        position: fixed;
+
+        
+      }
+
+
+    .menuButton{
+        height: 40px;
+        margin-left:-10px;
+    }
+    .navlogo{
+        height: 60px;
+        margin-left:-5px;
+    
+    }
+    .pulse{
+        color:green;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    
+}
+
+.Slidebar{
+
+cursor: pointer;
+ font-size: larger;
+ font-weight: 600;
+ font-style: italic;
+
+
+}

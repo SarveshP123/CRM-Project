@@ -1,0 +1,39 @@
+.service {
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto 0 80px; /* Center align with auto margins */
+    height: 300px;
+    border-radius: 30px;
+    animation: fadeIn 1.5s ease-in-out, slideUp 1s ease-out;
+}
+
+@media screen and (max-width: 766px) {
+    .service {
+        width: 90%; /* Adjust width to 90% for smaller screens */
+        margin: 10px 15px; /* Reduce margins for smaller screens */
+        height: auto; /* Let height adjust based on content */
+        border-radius: 20px; /* Optional: Adjust border radius for smaller screens */
+        animation: fadeIn 1.5s ease-in-out, slideUp 1s ease-out; /* Ensure animations apply on smaller screens too */
+    }
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Keyframes for slide-up animation */
+@keyframes slideUp {
+    0% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
